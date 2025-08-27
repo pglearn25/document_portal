@@ -28,13 +28,9 @@
       ],
       "secrets": [
         {
-          "name":"GROQ_API_KEY",
-          "valueFrom": "arn:aws:secretsmanager:eu-north-1:253137917464:secret:llm_groq_google-mAldRJ:GROQ_API_KEY"
-        },
-        {
-          "name":"GOOGLE_API_KEY",
-          "valueFrom": "arn:aws:secretsmanager:eu-north-1:253137917464:secret:llm_groq_google-mAldRJ:GOOGLE_API_KEY"
-        }
+          "name":"llm_groq_google",
+          "valueFrom": "arn:aws:secretsmanager:eu-north-1:253137917464:secret:llm_groq_google-mAldRJ"
+        }      
         
       ],
       "logConfiguration": {
