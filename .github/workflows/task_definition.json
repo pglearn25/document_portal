@@ -4,7 +4,7 @@
   "executionRoleArn": "arn:aws:iam::253137917464:role/ecsTaskExecutionRole",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "1024",
-  "memory": "8000",
+  "memory": "8192",
   "containerDefinitions": [
     {
       "name": "document-portal-container",
