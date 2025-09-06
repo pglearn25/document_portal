@@ -20,10 +20,12 @@
 	"Version": "2012-10-17",
 	"Statement": [
 		{
-			"Sid": "Statement1",
+			"Sid": "AllowSecretsManagerRead",
 			"Effect": "Allow",
-			"Action": "secretsmanager:GetSecretValue",
-			"Resource": "arn:aws:secretsmanager:ap-southeast-2:459497895986:secret:api_keys-nZTtj8*"
+			"Action": [
+				"secretsmanager:GetSecretValue"
+				],
+			"Resource": "arn:aws:secretsmanager:eu-north-1:253137917464:secret:llm_groq_google-mAldRJ"
 		}
 	]
 }
