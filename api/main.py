@@ -18,7 +18,7 @@ from src.document_chat.retrieval import ConversationalRAG
 from utils.document_ops import FastAPIFileAdapter,read_pdf_via_handler
 from logger import GLOBAL_LOGGER as log
 
-print("Starting Document Portal API...")
+print("Starting Document Portal API3...")
 
 FAISS_BASE = os.getenv("FAISS_BASE", "faiss_index")
 UPLOAD_BASE = os.getenv("UPLOAD_BASE", "data")
